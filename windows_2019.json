@@ -42,7 +42,6 @@
     {
       "execute_command": "{{ .Vars }} cmd /c \"{{ .Path }}\"",
       "scripts": [
-        "./scripts/vm-guest-tools.bat",
         "./scripts/enable-rdp.bat"
       ],
       "type": "windows-shell"
